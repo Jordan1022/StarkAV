@@ -14,6 +14,8 @@ Last updated: June 2, 2026
 
 Stark AV provides AV design, consulting, install support, and team training with a support-first posture. The business should feel like a trusted partner for churches rather than a vendor trying to sell equipment. The work should be framed around stewardship, clarity, confidence, and serving the church body well.
 
+Stark AV is founder-led by Isaiah Stark, but the public site should present the company as the business partner. Isaiah can be referenced as the founder and lead consultant, while the service model should leave room for subcontractors, installers, programmers, trainers, and other complementary specialists when a project requires them.
+
 ## Mission And Positioning
 
 Stark AV exists to help churches use audio, video, and production systems in ways that serve their people and support the broader mission of spreading the gospel.
@@ -25,6 +27,7 @@ Core positioning:
 - Recommend what will benefit the church body, not what is most expensive.
 - Help teams feel confident, consistent, and well-rounded during services.
 - Design systems that serve the room, the people, and the ministry vision.
+- Lead projects with the right mix of in-house guidance and trusted outside specialists.
 
 Tone:
 
@@ -42,6 +45,8 @@ Stark AV designs and advises on audio, video, and production systems for churche
 ### Install Support
 
 Stark AV can be as involved in the install process as the church wants. That may include helping select an installer, coordinating with an integration partner, reviewing installation decisions, or handling more of the process on behalf of the church.
+
+When a project needs skills beyond Stark AV's direct scope, the company can bring in subcontractors or complementary specialists. This should be positioned as a strength: churches get a clear guide and the right people around the table without having to manage every technical relationship themselves.
 
 ### Church Production Team Training
 
@@ -144,15 +149,16 @@ Likely content:
 - Short summary focused on restraint, intelligibility, historic architecture, and livestream support.
 - Avoid long copied passages from the article.
 
-### About Isaiah
+### Approach
 
-Purpose: Introduce Isaiah Stark as the founder and communicate his support-first posture.
+Purpose: Explain how Stark AV works as a business: founder-led guidance, practical design decisions, and flexible specialist involvement when needed.
 
 Likely content:
 
-- Isaiah's practical AVL design, church production, and technical director background.
-- His heart for churches and volunteers.
-- His desire to help churches choose what will actually serve their body.
+- Founder-led strategy and consulting from Isaiah Stark.
+- A support-first process that starts with the church's people, room, goals, and budget.
+- Trusted subcontractors or complementary specialists brought in when the project needs deeper install, programming, training, or production support.
+- Clear ownership for the church, so they are not left managing disconnected vendors alone.
 
 ### Contact
 
@@ -165,13 +171,19 @@ Likely content:
 - Phone: `(346) 208-3603`.
 - Optional service area once confirmed.
 
-## Founder Resume Details
+## Resume-Informed Business Credibility
 
-The 2026 resume adds useful background for credibility, founder bio, services copy, and training language.
+The 2026 resume adds useful context for credibility, services copy, training language, and technical standards. These details should inform the business site, but the public-facing page should not read like Isaiah's personal resume. Use Isaiah's background as proof of Stark AV's standards and judgment.
 
-### Professional Summary
+### Founder Background
 
 Isaiah Stark is an accomplished lead design engineer and AV consultant with experience delivering high-performance AVL solutions for complex environments. His background includes end-to-end integration projects valued at more than $500k, technical sales and consultation for house-of-worship clients, and training curriculum development for staff and volunteers.
+
+Public site usage:
+
+- Mention Isaiah as founder and lead consultant when helpful.
+- Keep the primary subject as Stark AV, the service model, and the outcome for churches.
+- Avoid building the site around a personal career timeline.
 
 ### Current And Recent Roles
 
@@ -215,6 +227,8 @@ Useful facts:
 
 ### Certifications
 
+Certifications are useful credibility signals and can appear on the site in a restrained technical-standards section, footer module, or services detail area. They should not dominate the homepage.
+
 - Dante Level 2, Audinate.
 - Q-SYS Level 1, QSC.
 - dbTechnologies VIO Level 2.
@@ -223,7 +237,9 @@ Useful facts:
 
 ### Resume-Informed Website Copy Guidance
 
-- Founder bio can mention Isaiah's mix of system design, technical direction, house-of-worship consulting, and volunteer training.
+- Founder references can mention Isaiah's mix of system design, technical direction, house-of-worship consulting, and volunteer training.
+- Stark AV should remain the main subject of website copy.
+- The site should explain that Stark AV can include subcontractors and complementary specialists when needed.
 - Services copy can reference modeling, documentation, vendor coordination, project lifecycle support, and install oversight.
 - Training copy can reference 12-week curriculum development, SOPs, staff onboarding, and volunteer development.
 - Proof-point language can mention high-reverberation historic environments, line array integration, Dante modernization, Q-SYS, Allen & Heath, and Vectorworks/EASE Focus modeling.
@@ -252,6 +268,7 @@ Initial implementation defaults:
 - Exact CTA language.
 - Whether the site should include a contact form or direct email link.
 - Isaiah's preferred founder bio.
+- Any preferred language around subcontractors, installers, programmers, and training partners.
 - Any testimonials or church references that can be used publicly.
 
 ## References

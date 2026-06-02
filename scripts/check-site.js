@@ -36,7 +36,9 @@ const requiredSourceText = [
   "(346) 208-3603",
   "Vectorworks",
   "Dante Level 2",
-  "Q-SYS Level 1"
+  "Q-SYS Level 1",
+  "subcontractors",
+  "complementary specialists"
 ];
 
 for (const text of requiredSourceText) {
@@ -52,9 +54,10 @@ const requiredHomepageText = [
   "Featured Work",
   "Villa de Matel Chapel",
   "Source of truth",
-  "Email Isaiah",
+  "Email Stark AV",
   "Call (346) 208-3603",
-  "About Isaiah"
+  "Approach",
+  "subcontractors"
 ];
 
 for (const text of requiredHomepageText) {
