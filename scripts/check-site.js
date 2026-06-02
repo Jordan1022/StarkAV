@@ -31,7 +31,12 @@ const requiredSourceText = [
   "https://fohonline.com/featured/houstons-villa-de-matel-chapel-upgrades-with-dbtechnologies-system/",
   "Open Inputs Before Final Launch",
   "Jordan1022/StarkAV",
-  "stark-av"
+  "stark-av",
+  "isaiahmichaelthunder@gmail.com",
+  "(346) 208-3603",
+  "Vectorworks",
+  "Dante Level 2",
+  "Q-SYS Level 1"
 ];
 
 for (const text of requiredSourceText) {
@@ -46,7 +51,10 @@ const requiredHomepageText = [
   "Start a Conversation",
   "Featured Work",
   "Villa de Matel Chapel",
-  "Source of truth"
+  "Source of truth",
+  "Email Isaiah",
+  "Call (346) 208-3603",
+  "About Isaiah"
 ];
 
 for (const text of requiredHomepageText) {

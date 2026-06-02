@@ -6,6 +6,9 @@ Last updated: June 2, 2026
 
 **Company:** Stark AV  
 **Founder:** Isaiah Stark  
+**Founder location:** Houston, TX  
+**Contact email:** isaiahmichaelthunder@gmail.com  
+**Contact phone:** (346) 208-3603  
 **Primary audience:** Churches and ministry teams that need thoughtful audio, video, production, and training support.  
 **Secondary audience:** Corporate conference rooms and government meeting halls that need practical AV design or consulting.
 
@@ -147,7 +150,7 @@ Purpose: Introduce Isaiah Stark as the founder and communicate his support-first
 
 Likely content:
 
-- Isaiah's practical AV background.
+- Isaiah's practical AVL design, church production, and technical director background.
 - His heart for churches and volunteers.
 - His desire to help churches choose what will actually serve their body.
 
@@ -158,8 +161,73 @@ Purpose: Invite churches to start a conversation.
 Likely content:
 
 - Short, low-pressure CTA.
-- Contact email or form once final contact details are available.
+- Email: `isaiahmichaelthunder@gmail.com`.
+- Phone: `(346) 208-3603`.
 - Optional service area once confirmed.
+
+## Founder Resume Details
+
+The 2026 resume adds useful background for credibility, founder bio, services copy, and training language.
+
+### Professional Summary
+
+Isaiah Stark is an accomplished lead design engineer and AV consultant with experience delivering high-performance AVL solutions for complex environments. His background includes end-to-end integration projects valued at more than $500k, technical sales and consultation for house-of-worship clients, and training curriculum development for staff and volunteers.
+
+### Current And Recent Roles
+
+**AV Design Pros, Houston, TX**  
+Lead Design Engineer, August 2024 to present
+
+Useful facts:
+
+- Engineered and oversaw integration of a dbTechnologies VIO line array system for the historic Villa de Matel Chapel.
+- Addressed acoustic challenges in a high-reverberation historic environment.
+- Secured $600k in new contracts within one year through detailed consultation and bespoke system modeling for house-of-worship clients.
+- Directed installation project lifecycles valued up to $500k.
+- Managed technicians and programmers to support hardware synchronization and system stability.
+- Authored 12-week AVL study guides and training documents for audio, video, and lighting workflows.
+- Uses Vectorworks and EASE Focus for modeling and coverage planning before physical installation.
+
+**OneLife Church**  
+Technical Director, May 2023 to February 2025
+
+Useful facts:
+
+- Led a facility-wide audio workflow migration to Dante-based networking.
+- Designed standardized training systems for volunteer teams.
+- Reduced technical errors during live productions by 40% through simplified SOPs.
+- Managed and programmed Allen & Heath D-Live consoles, AHM matrices, and Q-SYS DSP platforms.
+- Integrated lighting, video, and audio production for weekly services.
+
+### Core Competencies
+
+- System architecture: venue modeling with EASE Focus, CAD documentation with Vectorworks, signal flow design.
+- Project leadership: $500k+ budget oversight, technical sales, vendor relations, field team management.
+- Networked audio: Dante Level 2, AES50, RDNet, Q-SYS, Allen & Heath AHM.
+- Educational development: 12-week technical training curricula, staff onboarding, volunteer systems.
+
+### Technical Skills And Tools
+
+- Design/modeling: Vectorworks Professional, EASE Focus, Smaart v9, ConnectCAD.
+- Hardware/DSP: dbTechnologies VIO Series, Allen & Heath D-Live, Allen & Heath AHM, Q-SYS.
+- Protocols/networking: Dante IP-based audio, AES50, RDNet, MIDI.
+- Creative tools: Logic Pro, Final Cut Pro, After Effects, Photoshop.
+
+### Certifications
+
+- Dante Level 2, Audinate.
+- Q-SYS Level 1, QSC.
+- dbTechnologies VIO Level 2.
+- Allen & Heath AHM and D-Live certified.
+- Vectorworks Certified Professional.
+
+### Resume-Informed Website Copy Guidance
+
+- Founder bio can mention Isaiah's mix of system design, technical direction, house-of-worship consulting, and volunteer training.
+- Services copy can reference modeling, documentation, vendor coordination, project lifecycle support, and install oversight.
+- Training copy can reference 12-week curriculum development, SOPs, staff onboarding, and volunteer development.
+- Proof-point language can mention high-reverberation historic environments, line array integration, Dante modernization, Q-SYS, Allen & Heath, and Vectorworks/EASE Focus modeling.
+- Avoid making resume metrics sound like sales-first positioning. Use them to support credibility while keeping the church-support tone primary.
 
 ## Current Starter Site Decisions
 
@@ -175,9 +243,9 @@ Initial implementation defaults:
 
 ## Open Inputs Before Final Launch
 
-- Final contact email.
-- Final phone number, if desired.
-- Service area or city/region.
+- Confirm whether the resume contact email should be public on the final website.
+- Confirm whether the resume phone number should be public on the final website.
+- Confirm service area beyond Houston, TX.
 - Preferred website domain.
 - Final web-ready logo assets, including transparent-background versions if available.
 - Additional project photos or case studies.
