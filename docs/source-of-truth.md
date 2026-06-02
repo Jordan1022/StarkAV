@@ -7,7 +7,7 @@ Last updated: June 2, 2026
 **Company:** Stark AV  
 **Founder:** Isaiah Stark  
 **Founder location:** Houston, TX  
-**Contact email:** isaiahmichaelthunder@gmail.com  
+**Contact email:** Isaiah@starkav.design  
 **Contact phone:** (346) 208-3603  
 **Primary audience:** Churches and ministry teams that need thoughtful audio, video, production, and training support.  
 **Secondary audience:** Corporate conference rooms and government meeting halls that need practical AV design or consulting.
@@ -167,7 +167,7 @@ Purpose: Invite churches to start a conversation.
 Likely content:
 
 - Short, low-pressure CTA.
-- Email: `isaiahmichaelthunder@gmail.com`.
+- Email: `Isaiah@starkav.design`.
 - Phone: `(346) 208-3603`.
 - Optional service area once confirmed.
 
