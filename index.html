@@ -8,17 +8,39 @@
       content="Stark AV provides church-focused AV design, consulting, install support, and production team training."
     >
     <title>Stark AV | Church AV Design, Consulting, and Training</title>
-    <link rel="icon" href="/public/brand/stark-av-logo.jpeg">
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23f22a12'/%3E%3Cg fill='%23fff'%3E%3Crect x='7' y='13' width='2.6' height='6' rx='1.3'/%3E%3Crect x='11.4' y='9' width='2.6' height='14' rx='1.3'/%3E%3Crect x='15.8' y='6' width='2.6' height='20' rx='1.3'/%3E%3Crect x='20.2' y='10' width='2.6' height='12' rx='1.3'/%3E%3Crect x='24.6' y='14' width='2.6' height='4' rx='1.3'/%3E%3C/g%3E%3C/svg%3E"
+    >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Hanken+Grotesk:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    >
     <link rel="stylesheet" href="/styles.css">
   </head>
   <body>
     <header class="site-header" aria-label="Site header">
       <a class="brand" href="#top" aria-label="Stark AV home">
-        <img src="/public/brand/stark-av-logo.jpeg" alt="Stark AV logo">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 32 32" width="30" height="30" role="img">
+            <rect width="32" height="32" rx="8" fill="var(--accent)"></rect>
+            <g fill="#fff">
+              <rect x="7" y="13" width="2.6" height="6" rx="1.3"></rect>
+              <rect x="11.4" y="9" width="2.6" height="14" rx="1.3"></rect>
+              <rect x="15.8" y="6" width="2.6" height="20" rx="1.3"></rect>
+              <rect x="20.2" y="10" width="2.6" height="12" rx="1.3"></rect>
+              <rect x="24.6" y="14" width="2.6" height="4" rx="1.3"></rect>
+            </g>
+          </svg>
+        </span>
+        <span class="brand-word">Stark<span class="brand-av">AV</span></span>
       </a>
       <nav class="site-nav" aria-label="Primary navigation">
         <a href="#services">Services</a>
         <a href="#training">Training</a>
+        <a href="#standards">Standards</a>
         <a href="#featured-work">Featured Work</a>
         <a href="#approach">Approach</a>
         <a href="#contact">Contact</a>
@@ -28,18 +50,31 @@
     <main id="top">
       <section class="hero section">
         <div class="hero-copy">
-          <p class="label">Church AV design, consulting, and training</p>
-          <h1>Support-first AV guidance for churches that need clarity and confidence.</h1>
-          <p class="lede">
+          <p class="label reveal" data-delay="1">Church AV design, consulting, and training</p>
+          <h1 class="reveal" data-delay="2">Support-first AV guidance for churches that need clarity and confidence.</h1>
+          <p class="lede reveal" data-delay="3">
             Stark AV helps churches design practical production systems, navigate installs, and train the
             volunteers and leaders who make services happen every week.
           </p>
-          <div class="actions" aria-label="Primary actions">
+          <div class="actions reveal" data-delay="4" aria-label="Primary actions">
             <a class="button primary" href="#contact">Start a Conversation</a>
             <a class="button secondary" href="#featured-work">View Featured Work</a>
           </div>
+          <div class="hero-wave reveal" data-delay="5" aria-hidden="true">
+            <svg viewBox="0 0 1200 120" preserveAspectRatio="none" role="presentation">
+              <path
+                class="wave-path"
+                fill="none"
+                stroke="var(--accent)"
+                stroke-width="2.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M0,60 L330,60 L360,60 L372,44 L384,78 L396,28 L408,92 L420,50 L432,70 L444,18 L456,102 L468,38 L480,82 L492,12 L504,108 L516,46 L528,74 L540,32 L552,88 L564,56 L576,64 L588,40 L600,80 L612,22 L624,98 L636,48 L648,72 L660,16 L672,104 L684,44 L696,76 L708,34 L720,86 L732,54 L744,66 L756,38 L768,82 L780,52 L792,68 L804,46 L816,74 L828,60 L870,60 L1200,60"
+              ></path>
+            </svg>
+          </div>
         </div>
-        <div class="hero-panel" aria-label="Stark AV positioning">
+        <div class="hero-panel reveal" data-delay="3" aria-label="Stark AV positioning">
           <div class="panel-line">
             <span>01</span>
             <strong>Design systems that serve the room.</strong>
@@ -55,20 +90,23 @@
         </div>
       </section>
 
-      <section class="section intro">
-        <p>
-          Founded by Isaiah Stark, Stark AV exists to be for churches: a practical support partner that
-          helps church bodies choose what will actually benefit their ministry, their volunteers, and the
-          people they serve.
-        </p>
+      <section class="band band-ink intro-band">
+        <div class="section intro reveal">
+          <p class="label label-accent">Why Stark AV exists</p>
+          <p class="intro-statement">
+            Founded by Isaiah Stark, Stark AV exists to be <em>for</em> churches&mdash;a practical support
+            partner that helps church bodies choose what will actually benefit their ministry, their
+            volunteers, and the people they serve.
+          </p>
+        </div>
       </section>
 
       <section class="section split-section" id="services">
-        <div>
+        <div class="reveal">
           <p class="label">Services</p>
           <h2>Design and consulting without the pressure of a sales floor.</h2>
         </div>
-        <div class="item-list">
+        <div class="item-list reveal" data-stagger>
           <article>
             <h3>AV Design and Consulting</h3>
             <p>Assessment, system design, recommendations, and practical planning for church audio, video, and production environments.</p>
@@ -84,29 +122,65 @@
         </div>
       </section>
 
-      <section class="section training" id="training">
-        <div class="section-heading">
-          <p class="label">Training</p>
-          <h2>Equipping volunteers and worship leaders to serve with confidence.</h2>
+      <section class="band band-soft" id="training">
+        <div class="section training">
+          <div class="section-heading reveal">
+            <p class="label">Training</p>
+            <h2>Equipping volunteers and worship leaders to serve with confidence.</h2>
+          </div>
+          <div class="training-grid reveal" data-stagger>
+            <article>
+              <h3>Production Teams</h3>
+              <p>Training that helps volunteers understand the system, make better decisions, and stay consistent during services.</p>
+            </article>
+            <article>
+              <h3>Worship Teams</h3>
+              <p>Practical guidance for working with production teams, stage sound, monitoring, and service flow.</p>
+            </article>
+            <article>
+              <h3>Worship Leadership</h3>
+              <p>Support for leaders who shape expectations, steward systems, and care for the people serving each week.</p>
+            </article>
+          </div>
         </div>
-        <div class="training-grid">
-          <article>
-            <h3>Production Teams</h3>
-            <p>Training that helps volunteers understand the system, make better decisions, and stay consistent during services.</p>
-          </article>
-          <article>
-            <h3>Worship Teams</h3>
-            <p>Practical guidance for working with production teams, stage sound, monitoring, and service flow.</p>
-          </article>
-          <article>
-            <h3>Worship Leadership</h3>
-            <p>Support for leaders who shape expectations, steward systems, and care for the people serving each week.</p>
-          </article>
+      </section>
+
+      <section class="band band-ink standards-band" id="standards">
+        <div class="section standards">
+          <div class="section-heading reveal">
+            <p class="label label-accent">Technical Standards</p>
+            <h2>Credentials behind the recommendations.</h2>
+            <p class="standards-lede">
+              Founder Isaiah Stark brings certified, field-tested judgment to every engagement&mdash;so
+              churches get guidance grounded in real standards, not guesswork.
+            </p>
+          </div>
+          <ul class="figure-grid reveal" data-stagger>
+            <li>
+              <span class="figure">$500k+</span>
+              <span class="figure-label">Integration projects led end to end</span>
+            </li>
+            <li>
+              <span class="figure">40%</span>
+              <span class="figure-label">Fewer live-production errors after new SOPs at OneLife</span>
+            </li>
+            <li>
+              <span class="figure">12-week</span>
+              <span class="figure-label">AVL training curricula authored for staff and volunteers</span>
+            </li>
+          </ul>
+          <ul class="cert-list reveal" aria-label="Certifications">
+            <li>Dante Level 2</li>
+            <li>Q-SYS Level 1</li>
+            <li>dBTechnologies VIO Level 2</li>
+            <li>Allen &amp; Heath D-Live / AHM</li>
+            <li>Vectorworks Certified Professional</li>
+          </ul>
         </div>
       </section>
 
       <section class="section feature" id="featured-work">
-        <div class="feature-copy">
+        <div class="feature-copy reveal">
           <p class="label">Featured Work</p>
           <h2>Featured system design work at Houston's Villa de Matel Chapel.</h2>
           <p>
@@ -116,7 +190,7 @@
           </p>
           <a class="text-link" href="https://fohonline.com/featured/houstons-villa-de-matel-chapel-upgrades-with-dbtechnologies-system/">Read the FOH feature</a>
         </div>
-        <div class="feature-card">
+        <div class="feature-card reveal" data-delay="2">
           <span>Proof point</span>
           <p>
             Stark AV brings technical direction, system modeling, install leadership, and volunteer
@@ -125,43 +199,63 @@
         </div>
       </section>
 
-      <section class="section split-section" id="approach">
-        <div>
-          <p class="label">Approach</p>
-          <h2>Founder-led guidance with the right specialists around the table.</h2>
-        </div>
-        <div class="item-list">
-          <article>
-            <h3>Design and Modeling</h3>
-            <p>Stark AV uses practical system design, modeling, documentation, and signal flow planning to make decisions before equipment is installed.</p>
-          </article>
-          <article>
-            <h3>Flexible Project Support</h3>
-            <p>When a project needs additional install, programming, training, or production depth, Stark AV can involve trusted subcontractors and complementary specialists.</p>
-          </article>
-          <article>
-            <h3>Team Development</h3>
-            <p>Training systems, study guides, SOPs, staff onboarding, and volunteer development help churches run more consistent services.</p>
-          </article>
+      <section class="band band-soft" id="approach">
+        <div class="section split-section">
+          <div class="reveal">
+            <p class="label">Approach</p>
+            <h2>Founder-led guidance with the right specialists around the table.</h2>
+          </div>
+          <div class="item-list reveal" data-stagger>
+            <article>
+              <h3>Design and Modeling</h3>
+              <p>Stark AV uses practical system design, modeling, documentation, and signal flow planning to make decisions before equipment is installed.</p>
+            </article>
+            <article>
+              <h3>Flexible Project Support</h3>
+              <p>When a project needs additional install, programming, training, or production depth, Stark AV can involve trusted subcontractors and complementary specialists.</p>
+            </article>
+            <article>
+              <h3>Team Development</h3>
+              <p>Training systems, study guides, SOPs, staff onboarding, and volunteer development help churches run more consistent services.</p>
+            </article>
+          </div>
         </div>
       </section>
 
-      <section class="section contact" id="contact">
-        <div>
-          <p class="label">Contact</p>
-          <h2>Start with a conversation about what your church actually needs.</h2>
-        </div>
-        <div class="contact-actions">
-          <a class="button primary" href="mailto:isaiahmichaelthunder@gmail.com">Email Stark AV</a>
-          <a class="button secondary" href="tel:+13462083603">Call (346) 208-3603</a>
-          <p>Based in Houston, TX. Final service area and domain are still open launch inputs.</p>
+      <section class="band band-ink contact-band" id="contact">
+        <div class="section contact">
+          <div class="reveal">
+            <p class="label label-accent">Contact</p>
+            <h2>Start with a conversation about what your church actually needs.</h2>
+          </div>
+          <div class="contact-actions reveal" data-delay="2">
+            <a class="button primary" href="mailto:isaiahmichaelthunder@gmail.com">Email Stark AV</a>
+            <a class="button ghost" href="tel:+13462083603">Call (346) 208-3603</a>
+            <p>Based in Houston, TX. Final service area and domain are still open launch inputs.</p>
+          </div>
         </div>
       </section>
     </main>
 
     <footer class="site-footer">
-      <span>Stark AV</span>
-      <a href="/docs/source-of-truth.md">Source of truth</a>
+      <span class="footer-brand">
+        <span class="brand-mark brand-mark-sm" aria-hidden="true">
+          <svg viewBox="0 0 32 32" width="22" height="22" role="img">
+            <rect width="32" height="32" rx="8" fill="var(--accent)"></rect>
+            <g fill="#fff">
+              <rect x="7" y="13" width="2.6" height="6" rx="1.3"></rect>
+              <rect x="11.4" y="9" width="2.6" height="14" rx="1.3"></rect>
+              <rect x="15.8" y="6" width="2.6" height="20" rx="1.3"></rect>
+              <rect x="20.2" y="10" width="2.6" height="12" rx="1.3"></rect>
+              <rect x="24.6" y="14" width="2.6" height="4" rx="1.3"></rect>
+            </g>
+          </svg>
+        </span>
+        Stark AV
+      </span>
+      <span class="footer-meta">Church AV design, consulting &amp; training &middot; Houston, TX</span>
     </footer>
+
+    <script src="/scripts/reveal.js" defer></script>
   </body>
 </html>

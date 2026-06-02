@@ -53,17 +53,30 @@ const requiredHomepageText = [
   "Start a Conversation",
   "Featured Work",
   "Villa de Matel Chapel",
-  "Source of truth",
   "Email Stark AV",
   "Call (346) 208-3603",
   "Approach",
-  "subcontractors"
+  "subcontractors",
+  "Technical Standards",
+  "Dante Level 2",
+  "Q-SYS Level 1",
+  "Vectorworks Certified Professional"
 ];
 
 for (const text of requiredHomepageText) {
   if (!homepage.includes(text)) {
     throw new Error(`Homepage missing required text: ${text}`);
   }
+}
+
+// The internal source-of-truth doc must never be linked from or deployed with the public site.
+if (homepage.includes("docs/source-of-truth")) {
+  throw new Error("Homepage must not link the internal source-of-truth document.");
+}
+
+const vercelConfig = fs.readFileSync(path.join(root, "vercel.json"), "utf8");
+if (vercelConfig.includes("docs/")) {
+  throw new Error("vercel.json must not deploy the docs/ directory.");
 }
 
 console.log("Stark AV source document and starter site checks passed.");
