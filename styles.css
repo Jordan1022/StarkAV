@@ -73,7 +73,7 @@ a {
   align-items: center;
   justify-content: space-between;
   gap: 24px;
-  padding: 15px var(--gutter);
+  padding: 8px var(--gutter);
   background: rgba(244, 243, 240, 0.78);
   border-bottom: 1px solid rgba(227, 222, 216, 0.9);
   backdrop-filter: blur(18px) saturate(1.2);
@@ -88,7 +88,7 @@ a {
 
 .brand img {
   display: block;
-  height: 64px;
+  height: 96px;
   width: auto;
 }
 
