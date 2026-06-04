@@ -85,8 +85,22 @@
           <a href="#approach">Approach</a>
           <a href="#contact">Contact</a>
         </nav>
+        <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-nav">
+          <span></span><span></span><span></span>
+        </button>
       </div>
     </header>
+
+    <div class="mobile-nav" id="mobile-nav" aria-hidden="true">
+      <nav aria-label="Mobile navigation">
+        <a href="#services">Services</a>
+        <a href="#training">Training</a>
+        <a href="#standards">Standards</a>
+        <a href="#featured-work">Featured Work</a>
+        <a href="#approach">Approach</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
 
     <main id="top">
       <section class="hero section">
@@ -288,5 +302,26 @@
     </footer>
 
     <script src="/scripts/reveal.js" defer></script>
+    <script>
+      const toggle = document.querySelector('.nav-toggle');
+      const mobileNav = document.getElementById('mobile-nav');
+      toggle.addEventListener('click', () => {
+        const open = toggle.getAttribute('aria-expanded') === 'true';
+        toggle.setAttribute('aria-expanded', String(!open));
+        toggle.setAttribute('aria-label', open ? 'Open menu' : 'Close menu');
+        mobileNav.setAttribute('aria-hidden', String(open));
+        mobileNav.classList.toggle('is-open', !open);
+        document.body.classList.toggle('nav-open', !open);
+      });
+      mobileNav.querySelectorAll('a').forEach(a => {
+        a.addEventListener('click', () => {
+          toggle.setAttribute('aria-expanded', 'false');
+          toggle.setAttribute('aria-label', 'Open menu');
+          mobileNav.setAttribute('aria-hidden', 'true');
+          mobileNav.classList.remove('is-open');
+          document.body.classList.remove('nav-open');
+        });
+      });
+    </script>
   </body>
 </html>
