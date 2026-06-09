@@ -35,6 +35,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: clip;
 }
 
 body {
@@ -885,15 +886,7 @@ h3 {
   pointer-events: auto;
 }
 
-@media (max-width: 720px) {
-  .site-header {
-    height: 56px;
-  }
-
-  .header-inner {
-    width: min(var(--maxw), calc(100% - 28px));
-  }
-
+@media (max-width: 960px) {
   .site-nav {
     display: none;
   }
@@ -904,6 +897,19 @@ h3 {
 
   .mobile-nav {
     display: block;
+  }
+}
+
+@media (max-width: 720px) {
+  .site-header {
+    height: 56px;
+  }
+
+  .header-inner {
+    width: min(var(--maxw), calc(100% - 28px));
+  }
+
+  .mobile-nav {
     top: 56px;
   }
 
