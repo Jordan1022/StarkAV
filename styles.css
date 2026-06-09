@@ -894,7 +894,7 @@ h3 {
   pointer-events: auto;
 }
 
-@media (max-width: 1080px) {
+@media (max-width: 1200px) {
   .site-nav {
     display: none;
   }
