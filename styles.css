@@ -40,6 +40,7 @@ html {
 
 body {
   margin: 0;
+  padding-top: 64px;
   background: var(--paper);
   color: var(--text);
   font-family: var(--body);
@@ -67,8 +68,10 @@ a {
 
 /* ---------- Header ---------- */
 .site-header {
-  position: sticky;
+  position: fixed;
   top: 0;
+  left: 0;
+  width: 100%;
   z-index: 20;
   height: 64px;
   background: rgba(244, 243, 240, 0.78);
@@ -902,6 +905,10 @@ h3 {
 }
 
 @media (max-width: 720px) {
+  body {
+    padding-top: 56px;
+  }
+
   .site-header {
     height: 56px;
   }
