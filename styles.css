@@ -95,13 +95,6 @@ a {
   padding: 4px 0;
 }
 
-.header-right {
-  display: flex;
-  align-items: center;
-  gap: clamp(12px, 2.4vw, 30px);
-  min-width: 0;
-}
-
 .brand {
   display: flex;
   align-items: center;
@@ -115,6 +108,11 @@ a {
 }
 
 .site-nav {
+  position: fixed;
+  top: 0;
+  right: max(20px, calc((100vw - var(--maxw)) / 2));
+  z-index: 25;
+  height: 64px;
   display: flex;
   align-items: center;
   gap: clamp(12px, 2.4vw, 30px);
